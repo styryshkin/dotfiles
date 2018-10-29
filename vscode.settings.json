@@ -1,0 +1,74 @@
+{
+    // editor
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.snippetSuggestions": "top",
+    "editor.tabSize": 2,
+    // workbench
+    "workbench.fontAliasing": "antialiased",
+    "workbench.colorTheme": "Material Theme Palenight",
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "workbench.settings.editor": "json",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    // window
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "window.zoomLevel": 0,
+    // search
+    "search.smartCase": true,
+    "search.exclude": {
+        "dist": true,
+        "out": true,
+        "coverage": true
+    },
+    // eslint
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "npm",
+    // files
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    // explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.badges": false,
+    "explorer.openEditors.visible": 0,
+    // prettier
+    "prettier.eslintIntegration": true,
+    "prettier.requireConfig": true,
+    "prettier.singleQuote": true,
+    "prettier.tslintIntegration": true,
+    // javascript
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    // git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.ignoreLimitWarning": true,
+    // spell checker
+    "cSpell.userWords": [
+        "Creational",
+        "IGUI",
+        "PRISMA",
+        "datastore",
+        "deets",
+        "existy",
+        "liam",
+        "lightgrey",
+        "minmax",
+        "nprogress"
+    ],
+    // emmet
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // typescript
+    "tslint.exclude": [
+        "**/*.js"
+    ],
+    // extensions
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+}
