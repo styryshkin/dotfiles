@@ -1,8 +1,9 @@
 {
     // editor
-    "editor.fontFamily": "Firicico, Monaco, Menlo, 'Courier New', monospace",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.snippetSuggestions": "top",
